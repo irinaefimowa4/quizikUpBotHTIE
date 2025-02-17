@@ -44,7 +44,7 @@ document.getElementById('wakeButton').addEventListener('click', function() {
 
 function sendGetRequest() {
     var xhr = new XMLHttpRequest(); // Создаем новый объект XMLHttpRequest
-    var url = "https://wakeupquizbothtie.glitch.me"; // URL, на который будет отправлен запрос
+    var url = "https://wakeupquizbothtie4.glitch.me"; // URL, на который будет отправлен запрос
 
     xhr.open("GET", url, true); // Инициализируем GET-запрос
 
